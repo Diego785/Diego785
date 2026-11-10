@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Diego Hurtado Vargas, Systems Engineer, Full-Stack and Mobile Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a2341"/>
+      <stop offset="0.55" stop-color="#0c2a4d"/>
+      <stop offset="1" stop-color="#123a68"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#2f7ad1" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2f7ad1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+      .edge { stroke: #4fa3ff; stroke-opacity: 0.28; stroke-width: 2; fill: none; }
+      .pulse { stroke: #8cc4ff; stroke-width: 3; stroke-linecap: round; fill: none; stroke-dasharray: 26 400; animation: travel 3.6s linear infinite; }
+      .p2 { animation-delay: 0.9s; } .p3 { animation-delay: 1.8s; } .p4 { animation-delay: 2.7s; }
+      .node { fill: #0c2a4d; stroke: #4fa3ff; stroke-width: 2.5; }
+      .hub { fill: #4fa3ff; animation: breathe 3.6s ease-in-out infinite; transform-origin: 1030px 160px; }
+      .label { fill: #9fc2e8; font-size: 14px; }
+      @keyframes travel { from { stroke-dashoffset: 26; } to { stroke-dashoffset: -400; } }
+      @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.18); } }
+      @media (prefers-reduced-motion: reduce) { .pulse, .hub { animation: none; } .pulse { stroke-opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="320" rx="14" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="14" fill="url(#glow)"/>
+  <rect x="760" width="520" height="320" fill="url(#dots)"/>
+
+  <!-- Text -->
+  <text x="64" y="96" class="sans" font-size="15" font-weight="600" letter-spacing="3" fill="#7fb2ea">SYSTEMS ENGINEER  ·  SANTA CRUZ, BOLIVIA</text>
+  <text x="62" y="162" class="sans" font-size="56" font-weight="800" fill="#ffffff">Diego Hurtado Vargas</text>
+  <text x="64" y="206" class="sans" font-size="26" font-weight="600" fill="#dbe7f5">Full-Stack &amp; Mobile Engineer</text>
+  <text x="64" y="246" class="sans" font-size="16" fill="#9fbad8">Flutter · Laravel · NestJS · Next.js · DevOps · AI-native development</text>
+  <rect x="64" y="268" width="56" height="4" rx="2" fill="#4fa3ff"/>
+
+  <!-- One project, end to end: mobile, web, API, database, server -->
+  <path class="edge" d="M900 95 L1030 160"/>
+  <path class="edge" d="M900 225 L1030 160"/>
+  <path class="edge" d="M1030 160 L1160 95"/>
+  <path class="edge" d="M1030 160 L1160 225"/>
+  <path class="edge" d="M1160 95 L1160 225"/>
+
+  <path class="pulse" d="M900 95 L1030 160 L1160 95"/>
+  <path class="pulse p2" d="M900 225 L1030 160 L1160 225"/>
+  <path class="pulse p3" d="M1160 95 L1030 160 L900 225"/>
+  <path class="pulse p4" d="M1160 225 L1160 95"/>
+
+  <circle class="node" cx="900" cy="95" r="8"/>
+  <circle class="node" cx="900" cy="225" r="8"/>
+  <circle class="node" cx="1160" cy="95" r="8"/>
+  <circle class="node" cx="1160" cy="225" r="8"/>
+  <circle cx="1030" cy="160" r="22" fill="#4fa3ff" fill-opacity="0.12"/>
+  <circle class="hub" cx="1030" cy="160" r="10"/>
+
+  <text x="900" y="70" text-anchor="middle" class="mono label">mobile</text>
+  <text x="900" y="258" text-anchor="middle" class="mono label">web</text>
+  <text x="1030" y="203" text-anchor="middle" class="mono label">api</text>
+  <text x="1160" y="70" text-anchor="middle" class="mono label">database</text>
+  <text x="1160" y="258" text-anchor="middle" class="mono label">server</text>
+</svg>
