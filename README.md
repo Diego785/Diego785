@@ -33,7 +33,7 @@ Systems Engineer from Santa Cruz de la Sierra, Bolivia, with almost four years b
 | **Court case prediction**<br>[Code](https://github.com/Diego785/court_case_prediction) | Machine-learning regression that estimates a court case's chance of success, with case management and a decision-support dashboard. | Laravel, Livewire, php-ml |
 | **Education management systems**<br>[Complaints](https://github.com/Diego785/blog_dde_sc) · [Live tracking](https://github.com/Diego785/realtime_reporte_distritos) | For the Santa Cruz Directorate of Education: a complaints platform with PDF reports, and real-time form tracking for school districts. | Laravel, Livewire, Socket.IO, Docker |
 | **Deployment guide**<br>[Read it](https://github.com/Diego785/deployment-guide) | How to put web apps on a Linux server with Docker, a shared Nginx reverse proxy and HTTPS, from an empty VPS to a server shared by many projects. | Docker, Nginx, Let's Encrypt |
-| **Hydrometeorological data platform**<br>*In progress* | Replacement for Sutron XConnect that receives, decodes and publishes satellite data from weather and water stations. | PostgreSQL, TimescaleDB |
+| **Hydrometeorological data platform**<br>*In design* | Proposal and architecture for a Sutron XConnect replacement that will receive, decode and publish satellite data from weather and water stations. Development hasn't started yet. | PostgreSQL, TimescaleDB |
 
 <sub>Most of my day-to-day work lives in private company repositories. What's public here is institutional, hackathon and open work.</sub>
 
