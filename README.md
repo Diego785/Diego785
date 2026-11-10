@@ -7,6 +7,11 @@
   <a href="assets/Diego_Hurtado_CV_2026.pdf"><img src="https://img.shields.io/badge/Download_CV-0C2A4D?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Download CV"></a>
   <a href="https://solutiontech-bo.netlify.app"><img src="https://img.shields.io/badge/SolutionTech-1F5FA8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="SolutionTech website"></a>
 </p>
+<p align="center">
+  <a href="https://www.instagram.com/diegoh785/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://www.tiktok.com/@diegohurtadovarga8"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"></a>
+  <a href="https://x.com/DiegoHurtadoVa3"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+</p>
 
 ## About me
 
